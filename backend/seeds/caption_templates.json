@@ -1,0 +1,152 @@
+{
+  "templates": [
+    {
+      "industry": "restaurant",
+      "category": "promotional",
+      "title": "Daily special spotlight",
+      "template_text": "Today only: {{dish_name}} 🍽️\n\n{{dish_description}}\n\nAvailable until {{end_time}} — come hungry.\n\n📍 {{location}}",
+      "suggested_hashtags": ["foodie", "dailyspecial", "eatlocal", "freshfood", "instafood"],
+      "suggested_cta": "Book Today"
+    },
+    {
+      "industry": "restaurant",
+      "category": "engagement",
+      "title": "This or that",
+      "template_text": "Settle the debate: {{option_a}} or {{option_b}}? 👇\n\nTell us your pick in the comments — most popular answer gets featured this weekend.",
+      "suggested_hashtags": ["thisorthat", "fooddebate", "foodlover", "yourchoice"],
+      "suggested_cta": "Learn More"
+    },
+    {
+      "industry": "restaurant",
+      "category": "seasonal",
+      "title": "Seasonal menu launch",
+      "template_text": "The {{season}} menu has arrived ✨\n\nNew this season: {{highlight_items}}\n\nAvailable from {{start_date}}. See the full menu at the link in bio.",
+      "suggested_hashtags": ["seasonalmenu", "newmenu", "chefspecial", "limitedtime"],
+      "suggested_cta": "Book Today"
+    },
+    {
+      "industry": "ecommerce",
+      "category": "promotional",
+      "title": "Flash sale announcement",
+      "template_text": "🔥 {{discount}} OFF everything — {{duration}} only.\n\n{{product_highlight}}\n\nUse code {{promo_code}} at checkout. Ends {{end_date}}.",
+      "suggested_hashtags": ["flashsale", "sale", "limitedoffer", "shopnow", "deals"],
+      "suggested_cta": "Shop Now"
+    },
+    {
+      "industry": "ecommerce",
+      "category": "educational",
+      "title": "Product how-to",
+      "template_text": "3 ways to get more from your {{product_name}}:\n\n1️⃣ {{tip_one}}\n2️⃣ {{tip_two}}\n3️⃣ {{tip_three}}\n\nWhich one are you trying first?",
+      "suggested_hashtags": ["howto", "protips", "producttips", "didyouknow"],
+      "suggested_cta": "Learn More"
+    },
+    {
+      "industry": "ecommerce",
+      "category": "engagement",
+      "title": "Customer spotlight",
+      "template_text": "Shout-out to {{customer_name}} 📸\n\n\"{{customer_quote}}\"\n\nWant to be featured? Tag us in your photos with {{brand_hashtag}}.",
+      "suggested_hashtags": ["customerlove", "community", "realcustomers", "tagus"],
+      "suggested_cta": "Shop Now"
+    },
+    {
+      "industry": "fitness",
+      "category": "educational",
+      "title": "Workout of the week",
+      "template_text": "This week's workout 💪\n\n{{exercise_list}}\n\n{{sets_and_reps}}\n\nSave this post and tag a friend who needs it.",
+      "suggested_hashtags": ["workout", "fitnessmotivation", "training", "fitfam", "gymlife"],
+      "suggested_cta": "Book Today"
+    },
+    {
+      "industry": "fitness",
+      "category": "engagement",
+      "title": "Transformation story",
+      "template_text": "{{member_name}}'s journey: {{timeframe}}, {{achievement}} 👏\n\n\"{{member_quote}}\"\n\nYour story could be next.",
+      "suggested_hashtags": ["transformation", "fitnessjourney", "results", "motivation"],
+      "suggested_cta": "Sign Up"
+    },
+    {
+      "industry": "fitness",
+      "category": "promotional",
+      "title": "Membership offer",
+      "template_text": "New year, same you — just stronger 🏋️\n\n{{offer_details}}\n\nOffer ends {{end_date}}. Spots are limited to {{spot_count}}.",
+      "suggested_hashtags": ["joinnow", "membership", "fitnessgoals", "limitedspots"],
+      "suggested_cta": "Sign Up"
+    },
+    {
+      "industry": "saas",
+      "category": "educational",
+      "title": "Feature deep-dive",
+      "template_text": "Most teams miss this feature: {{feature_name}} 🧠\n\n{{feature_benefit}}\n\nHere's how it works: {{how_it_works}}\n\nFull walkthrough at the link.",
+      "suggested_hashtags": ["productivity", "saas", "worksmarter", "protip"],
+      "suggested_cta": "Learn More"
+    },
+    {
+      "industry": "saas",
+      "category": "promotional",
+      "title": "Product launch",
+      "template_text": "It's here: {{feature_or_product}} 🚀\n\n{{problem_it_solves}}\n\n{{key_benefit}}\n\nAvailable now for all {{plan_name}} customers.",
+      "suggested_hashtags": ["productlaunch", "newfeature", "startup", "innovation"],
+      "suggested_cta": "Get Started"
+    },
+    {
+      "industry": "saas",
+      "category": "engagement",
+      "title": "Industry hot take",
+      "template_text": "Unpopular opinion: {{hot_take}}\n\n{{supporting_argument}}\n\nAgree or disagree? Tell us below 👇",
+      "suggested_hashtags": ["hottake", "industrytalk", "discussion", "futureofwork"],
+      "suggested_cta": "Learn More"
+    },
+    {
+      "industry": "beauty_salon",
+      "category": "promotional",
+      "title": "Booking push",
+      "template_text": "{{service_name}} appointments are open for {{time_period}} ✨\n\n{{offer_or_highlight}}\n\nWeekend slots fill fast — book yours now.",
+      "suggested_hashtags": ["bookNow", "selfcare", "beautyday", "treatyourself"],
+      "suggested_cta": "Book Today"
+    },
+    {
+      "industry": "beauty_salon",
+      "category": "engagement",
+      "title": "Before and after",
+      "template_text": "Swipe for the after 😍\n\n{{service_performed}} by {{stylist_name}}.\n\nThinking about a change? Drop a 💇 in the comments.",
+      "suggested_hashtags": ["beforeandafter", "hairtransformation", "glowup", "salonlife"],
+      "suggested_cta": "Book Today"
+    },
+    {
+      "industry": "real_estate",
+      "category": "promotional",
+      "title": "New listing",
+      "template_text": "JUST LISTED 🏡 {{property_headline}}\n\n• {{beds}} bed / {{baths}} bath\n• {{square_feet}} sq ft\n• {{standout_feature}}\n\n{{neighborhood}}, {{price}}. DM for a private tour.",
+      "suggested_hashtags": ["justlisted", "realestate", "dreamhome", "housegoals", "newlisting"],
+      "suggested_cta": "Contact Us"
+    },
+    {
+      "industry": "real_estate",
+      "category": "educational",
+      "title": "Buyer tip",
+      "template_text": "First-time buyer tip #{{tip_number}} 🔑\n\n{{tip_content}}\n\nSave this series — one tip every week.",
+      "suggested_hashtags": ["firsttimebuyer", "realestatetips", "homebuying", "realtoradvice"],
+      "suggested_cta": "Learn More"
+    }
+  ],
+  "hashtag_packs": {
+    "restaurant": ["foodie", "instafood", "eatlocal", "foodphotography", "chefmade", "freshingredients", "foodstagram", "supportlocal"],
+    "ecommerce": ["shopnow", "onlineshopping", "newarrivals", "sale", "musthave", "shopsmall", "freeshipping", "trending"],
+    "fitness": ["fitfam", "gymmotivation", "workout", "fitnessjourney", "strongnotskinny", "trainhard", "healthylifestyle", "noexcuses"],
+    "saas": ["saas", "productivity", "startup", "tech", "automation", "worksmarter", "b2b", "software"],
+    "beauty_salon": ["selfcare", "beautytips", "salonlife", "hairgoals", "glowup", "skincare", "pamperday", "beautyexpert"],
+    "real_estate": ["realestate", "dreamhome", "property", "househunting", "realtor", "newhome", "investment", "homesweethome"]
+  },
+  "ctas": [
+    "Shop Now",
+    "Learn More",
+    "Book Today",
+    "Sign Up",
+    "Get Started",
+    "Contact Us",
+    "DM Us",
+    "Link in Bio",
+    "Save This Post",
+    "Tag a Friend"
+  ]
+}

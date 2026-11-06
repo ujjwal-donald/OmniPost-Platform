@@ -1,0 +1,26 @@
+# Secrets — NEVER commit
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# User-uploaded media (local dev storage)
+backend/uploads/
+
+# Celery Beat's local schedule state (recreated on every start)
+celerybeat-schedule*
+
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

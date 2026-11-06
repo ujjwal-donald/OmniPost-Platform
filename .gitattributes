@@ -1,0 +1,19 @@
+# Repo stores LF; Windows checkouts get CRLF via autocrlf.
+# Keeps diffs reviewable across machines.
+* text=auto
+*.py text
+*.md text
+*.json text
+*.yml text
+*.toml text
+*.ini text
+*.mako text
+
+# Binary assets: never normalise line endings
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary
